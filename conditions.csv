@@ -1,0 +1,6 @@
+field,conditions
+poste:equal:Directeur,age:inf:35
+poste:equal:Manager,salaire:inf and equal:50000
+poste:equal:Stagiaire,salaire:sup:15000
+poste:equal:Analyste,age:sup:45#salaire:sup:70000
+age:include:18_22,poste:equal:Directeur
